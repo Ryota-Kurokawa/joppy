@@ -15,6 +15,9 @@
 		FF8EA49C2B921C5A00DCC65E /* joppyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8EA49B2B921C5A00DCC65E /* joppyUITests.swift */; };
 		FF8EA49E2B921C5A00DCC65E /* joppyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8EA49D2B921C5A00DCC65E /* joppyUITestsLaunchTests.swift */; };
 		FF8EA4AB2B9247A400DCC65E /* project.yml in Resources */ = {isa = PBXBuildFile; fileRef = FF8EA4AA2B9247A400DCC65E /* project.yml */; };
+		FF8EA4AD2B924A0B00DCC65E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = FF8EA4AC2B924A0B00DCC65E /* .gitignore */; };
+		FF8EA4AF2B924A3200DCC65E /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = FF8EA4AE2B924A3200DCC65E /* .swiftlint.yml */; };
+		FF8EA4B12B924A5500DCC65E /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = FF8EA4B02B924A5500DCC65E /* .swift-version */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		FF8EA49B2B921C5A00DCC65E /* joppyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = joppyUITests.swift; sourceTree = "<group>"; };
 		FF8EA49D2B921C5A00DCC65E /* joppyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = joppyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FF8EA4AA2B9247A400DCC65E /* project.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = project.yml; sourceTree = "<group>"; };
+		FF8EA4AC2B924A0B00DCC65E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		FF8EA4AE2B924A3200DCC65E /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		FF8EA4B02B924A5500DCC65E /* .swift-version */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +82,10 @@
 		FF8EA4742B921C5800DCC65E = {
 			isa = PBXGroup;
 			children = (
+				FF8EA4B02B924A5500DCC65E /* .swift-version */,
+				FF8EA4AC2B924A0B00DCC65E /* .gitignore */,
 				FF8EA4AA2B9247A400DCC65E /* project.yml */,
+				FF8EA4AE2B924A3200DCC65E /* .swiftlint.yml */,
 				FF8EA47F2B921C5800DCC65E /* joppy */,
 				FF8EA4902B921C5A00DCC65E /* joppyTests */,
 				FF8EA49A2B921C5A00DCC65E /* joppyUITests */,
@@ -234,8 +243,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF8EA4AF2B924A3200DCC65E /* .swiftlint.yml in Resources */,
+				FF8EA4AD2B924A0B00DCC65E /* .gitignore in Resources */,
 				FF8EA4882B921C5A00DCC65E /* Preview Assets.xcassets in Resources */,
 				FF8EA4AB2B9247A400DCC65E /* project.yml in Resources */,
+				FF8EA4B12B924A5500DCC65E /* .swift-version in Resources */,
 				FF8EA4852B921C5A00DCC65E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
