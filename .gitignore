@@ -43,7 +43,15 @@ playground.xcworkspace
 # Packages/
 # Package.pins
 # Package.resolved
-# *.xcodeproj
+
+*.xcodeproj/*
+### プロジェクトの構成情報を格納するファイル
+!*.xcodeproj/project.pbxproj
+### XcodeのプロジェクトのビルドSchemeを格納するファイル
+!*.xcodeproj/xcshareddata/
+### プロジェクトのワークスペースのデータを格納するXMLファイル
+!*.xcworkspace/contents.xcworkspacedata
+
 # Xcode automatically generates this directory with a .xcworkspacedata file and xcuserdata
 # hence it is not needed unless you have added a package configuration file to your project
 # .swiftpm
